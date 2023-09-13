@@ -11,17 +11,6 @@ namespace UBIKOIDCProcessorExtended
         {
         }
 
-        /*public override bool IsValid()
-        {
-            foreach (var kv in base.Assertions())
-            {
-                UBIKKernel.LogCustomizing(System.Reflection.MethodBase.GetCurrentMethod(),
-                $"Key: {kv.Key} - Value: {kv.Value.ToString()}");
-            }
-            
-            return base.IsValid();
-        }*/
-
         protected override Login CreateLogin(string loginName, string domain, OSTypes osType)
         {
             Login login = null;
