@@ -7,7 +7,7 @@ namespace UBIKOIDCProcessorExtended.SystemDefinitions
 {
     public class SSOSystemDefinitions_V440 : ISystemDefinitions
     {
-        public Version Version => new Version(4, 4, 0, 1);
+        public Version Version => new Version(4, 4, 0, 2);
 
         public void DefineDefaultSystemStrings(UBIKEnvironment environment)
         {
@@ -35,6 +35,16 @@ namespace UBIKOIDCProcessorExtended.SystemDefinitions
         }
 
         public void InitializeSystemContent(UBIKEnvironment environment)
+        {
+            
+        }
+
+        public void PostProcessDatabaseUpdate(UBIKEnvironment environment)
+        {
+            
+        }
+
+        public void PreProcessDatabaseUpdate(UBIKEnvironment environment)
         {
             
         }
